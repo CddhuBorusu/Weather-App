@@ -71,7 +71,7 @@ search.addEventListener('click', ()=>{
 
 
 });
-search..querySelector('#txtSearch').addEventListener('keypress', function (e) {
+search.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         const api='69ca9e5473c8ec848bb2c1a53cd68426'
     const city=document.querySelector('.search-box input').value;
